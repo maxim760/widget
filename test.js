@@ -12,7 +12,6 @@ let isStarted = false
 window.addEventListener('resize', onResize)
 
 function getHeightBeforeStart() {
-  alert('BEFORE START:' + window.innerWidth)
   return window.innerWidth < 600 ? height.small : height.big
 }
 

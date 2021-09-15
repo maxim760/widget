@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 p,
@@ -65,6 +64,7 @@ a {
 
 section {
   width: 100%;
+  overflow: auto;
   background-color: aquamarine;
   padding-top: 30px;
   padding-bottom: 30px;
